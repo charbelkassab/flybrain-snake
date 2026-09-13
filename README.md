@@ -12,6 +12,8 @@
 
 [**▶ Full demo video (65 s)**](media/fly_plays_snake.mp4) · [How it works](#how-it-works) · [Results](#results) · [Is the fly actually playing?](#so-is-the-fly-actually-playing) · [Run it](#run-it-yourself)
 
+**Similar project:** [flybrain-intransitive](https://github.com/charbelkassab/flybrain-intransitive), the same fly connectome playing rock-paper-scissors chess with zero training.
+
 </div>
 
 ---
@@ -247,6 +249,13 @@ assets/fly_top.png     top-down render of the flybody fly model
   locomotion.* Nature (2025), [TuragaLab/flybody](https://github.com/TuragaLab/flybody), Apache 2.0.
 - **Steering neurons:** Rayshubskiy, A. et al. *Neural circuit mechanisms for steering control in walking Drosophila* (2020);
   LC10a pursuit pathway: Ribeiro, I.M.A. et al. (2018), Hindmarsh Sten, T. et al. (2021).
+
+## Similar project
+
+**[flybrain-intransitive](https://github.com/charbelkassab/flybrain-intransitive)**: the same connectome plays
+[Intransitive](https://meaf.us/rps2/), rock-paper-scissors chess. Every legal move is shown to the fly's eyes; looming
+threats fire its giant fiber escape neuron, and picking the move with the most approach and least escape beats random
+play 100–0 and matches a greedy bot 55–45, with no training.
 
 ## License
 
